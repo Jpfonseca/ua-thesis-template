@@ -76,8 +76,11 @@
 
 %For PDF Comments
 \usepackage{comment}
+
+%Not needed when using pdftex
 \ifthenelse{\equal{\useoverleaf}{0}}
 {\usepackage{pdfcomment}}%
+
 \usepackage{bookmark} % New Bookmarks
 
 %For Multiple columns in Glossary
